@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: gaqz
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-olwe-tenant/byoc-app-vkec/gaqz@sha256:f7d97b57ec0d691496e8e96cc9f5b33c46660a0ad0f599e89f47be19a23c29dd
         name: my-java-quarkus
         ports:
         - containerPort: 8081
